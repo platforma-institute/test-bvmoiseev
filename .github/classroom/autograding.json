@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "Человек",
+      "output": "Привет, Человек!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
